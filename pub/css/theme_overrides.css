@@ -1,1 +1,94 @@
 /* place your custom CSS overrides here */
+
+.content h1 {
+    border: none;
+    font-weight: 300;
+    color: #0033a0;
+}
+.page-wrapper {
+    background-color: white;
+}
+.content pre, .content blockquote {
+    width: calc(40% - 40px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+
+}
+.page-wrapper .dark-box {
+    width: 40%;
+}
+.toc-wrapper .toc-link.active {
+    background-color: #A5E1D2;
+    font-weight: 500;
+}
+.toc-wrapper li {
+    line-height: 36px;
+}
+.toc-link {
+    color: #000;
+}
+.toc-wrapper .toc-list-h2 {
+    background-color: #fafafa;
+}
+.toc-h1.toc-link.active-parent {
+    background-color: #f0f0f0;
+}
+.toc-wrapper > .search {
+    padding-top: 10px;
+}
+.toc-wrapper > .search input {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding-left: 24px;
+    height: 40px;
+    border-width: 0px;
+    border-color: #f0f0f0;
+}
+.toc-wrapper > .search:before {
+    color: #888;
+    left: 20px;
+    top: 32px;
+}
+.toc-wrapper .logo {
+    display: none;
+}
+.toc-wrapper {
+    font-size: 16px;
+    background-color: #fafafa;
+    font-weight: 300;
+}
+.toc-wrapper .toc-h2 {
+    font-weight: 300;
+}
+.toc-wrapper .toc-link.active-parent {
+    color: #0033a0;
+}
+.content aside {
+    margin-left: 28px;
+    padding-left: 4em;
+}
+.content aside.warning {
+    background-color: rgba(229, 57, 53, 0.06);
+    color: #e53935;
+}
+.content aside:before {
+    font-size: 32px;
+    position: absolute;
+    left: 40px;
+    margin: 0;
+}
+.content table tr:nth-child(even) > td {
+    background-color: #f8f8f8;
+}
+.content table td {
+    border: 1px solid #ddd;
+}
+.content > h1, .content > h2, .content > h3, .content > h4, .content > h5, .content > h6, .content > p, .content > table, .content > ul, .content > ol, .content > aside, .content > dl {
+    margin-right: calc(40% + 28px);
+}
+/*.toc-wrapper > .search {*/
+/*padding-top: 20px;*/
+/*height: 40px;*/
+/*}*/
