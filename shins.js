@@ -32,6 +32,6 @@ shins.render(inputStr,options,function(err,str){
     }
     else {
         str = str.split('\r').join('');
-        fs.writeFileSync('./index.html',str,'utf8');
+        fs.writeFileSync('./doc.html',str,'utf8');
     }
 });
