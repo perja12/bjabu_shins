@@ -1,5 +1,8 @@
 /* place your custom CSS overrides here */
 
+body {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
 .content h1 {
     border: none;
     font-weight: 300;
@@ -13,7 +16,10 @@
     margin-right: 20px;
     margin-bottom: 20px;
     overflow-x: auto;
-
+    -ms-overflow-style: none;
+}
+.content pre::-webkit-scrollbar, .content blockquote::-webkit-scrollbar {
+    display: none;
 }
 .page-wrapper .dark-box {
     width: 40%;
@@ -37,6 +43,13 @@
 .toc-wrapper > .search {
     padding-top: 10px;
 }
+.toc-wrapper > .search-results {
+    background-color: #ededed;
+}
+.toc-wrapper > .search-results li,
+.toc-wrapper > .search-results a {
+    color: #0033a0;
+}
 .toc-wrapper > .search input {
     background-color: white;
     border-radius: 20px;
@@ -58,6 +71,7 @@
     font-size: 16px;
     background-color: #fafafa;
     font-weight: 300;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 .toc-wrapper .toc-h2 {
     font-weight: 300;
