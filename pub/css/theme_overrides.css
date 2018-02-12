@@ -106,3 +106,17 @@ body {
 /*padding-top: 20px;*/
 /*height: 40px;*/
 /*}*/
+
+@media (max-width: 1023px) {
+    .toc-wrapper {
+        left: -230px; }
+    .toc-wrapper.open {
+        left: 0; }
+    .page-wrapper {
+        margin-left: 0; }
+    #nav-button {
+        display: block; }
+    .toc-link {
+        padding-top: 0.3em;
+        padding-bottom: 0.3em; }
+}
