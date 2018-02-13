@@ -120,3 +120,14 @@ body {
         padding-top: 0.3em;
         padding-bottom: 0.3em; }
 }
+
+@media (max-width: 700px) {
+    .content pre, .content blockquote {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+    .content > h1, .content > h2, .content > h3, .content > h4, .content > h5, .content > h6, .content > p, .content > table, .content > ul, .content > ol, .content > aside, .content > dl {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+}
