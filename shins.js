@@ -8,7 +8,8 @@ const shins = require('./index.js');
 
 if (options.customcss) options.customCss = true; // backwards compatibility
 
-var inputName = './source/index.html.md';
+// var inputName = './source/index.html.md';
+var inputName = './doc.md';
 
 if (options._.length > 2) {
     inputName = options._[2];
@@ -16,6 +17,7 @@ if (options._.length > 2) {
 
 var inputStr = fs.readFileSync(inputName,'utf8');
 options.source = inputName;
+console.log('Input file is: ' + inputName);
 
 shins.render(inputStr,options,function(err,str){
     if (err) {
