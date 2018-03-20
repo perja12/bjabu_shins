@@ -13,6 +13,11 @@ Version numbers of Shins aim to track the version of Slate they are compatible w
 
 ![screenshot](https://github.com/Mermade/shins/blob/master/docs/screenshot.jpg?raw=true)
 
+### DNB adjustments
+This fork of shins has some modifications:
+* Clicking a link opens up in a new window.
+* Several changes to looks and layout. Closer to the lloks of Redoc.
+
 ### Usage
 
 * Fork the repository
